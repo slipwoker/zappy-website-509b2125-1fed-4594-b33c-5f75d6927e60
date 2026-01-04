@@ -1,0 +1,1148 @@
+
+
+/* Self-hosted fonts (Inter + Rubik for multi-language support) */
+
+/* Inter font (English / LTR languages) */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('assets/fonts/Inter-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('assets/fonts/Inter-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('assets/fonts/Inter-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('assets/fonts/Inter-Bold.woff2') format('woff2');
+}
+
+/* Rubik font (Hebrew / RTL languages) */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('assets/fonts/Rubik-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('assets/fonts/Rubik-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('assets/fonts/Rubik-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('assets/fonts/Rubik-Bold.woff2') format('woff2');
+}
+
+
+/* Self-hosted fonts (Inter + Rubik for multi-language support) */
+
+/* Inter font (English / LTR languages) */
+@font-face {
+  font-family: 'Rubik', sans-serif}
+
+@font-face {
+  font-family: 'Rubik', sans-serif}
+
+@font-face {
+  font-family: 'Rubik', sans-serif}
+
+@font-face {
+  font-family: 'Rubik', sans-serif}
+
+/* Rubik font (Hebrew / RTL languages) */
+@font-face {
+  font-family: 'Rubik', sans-serif}
+
+@font-face {
+  font-family: 'Rubik', sans-serif}
+
+@font-face {
+  font-family: 'Rubik', sans-serif}
+
+@font-face {
+  font-family: 'Rubik', sans-serif}
+:root {
+--primary:#2F6B4F;--secondary:#F5C27A;--accent:#B9FF6A;--accent-alt:#B9FF6A;--gold:#caa24a;--bg-dark:#0f1c16;--bg-mid:#3f5444;--bg-light:#E9EFEA;--text-light:#ffffff;--text-dark:#0C1F16;--text-muted:#bfb8a4;--border-light:rgba(239,233,219,.30);--border-dark:rgba(15,28,22,.45);--radius-sm:10px;--radius-md:16px;--radius-lg:24px;--radius-pill:999px;--shadow-soft:0 10px 20px rgba(0,0,0,.28);--shadow-med:0 14px 26px rgba(0,0,0,.30);--shadow-strong:0 18px 26px rgba(0,0,0,.38);--shadow-glow:0 0 26px rgba(185,255,106,.16)
+  --primary-color: #2F6B4F;
+  --secondary-color: #F5C27A;
+  --accent-color: #B9FF6A;
+  --background-color: #E9EFEA;
+  --surface-color: undefined;
+  --text-color: #0C1F16;
+  --text-secondary-color: #8c8c8c;
+}*{margin:0;padding:0;box-sizing:border-box}body{font-family: 'Rubik', sans-serif}h1,h2,h3{font-family: 'Rubik', sans-serif}h2{font-size:28px;font-weight:800;line-height:1.15;letter-spacing:-0.005em;color:var(--text-dark);margin-bottom:1rem}h3{font-size:20px;font-weight:700;color:var(--text-dark)}p{font-size:14px;font-weight:600;line-height:1.65;color:var(--text-dark)}a{text-decoration:none;color:inherit;transition:all 200ms ease}img{max-width:100%;height:auto;display:block}.navbar{position:fixed;top:0;left:0;right:0;background:rgba(233,239,234,0.95);backdrop-filter:blur(12px);padding:1rem 2rem;display:flex;align-items:center;justify-content:space-between;z-index:1000;box-shadow:0 2px 12px rgba(0,0,0,0.08);transition:all 300ms ease}.navbar.scrolled{background:rgba(233,239,234,0.98);box-shadow:0 4px 16px rgba(0,0,0,0.12)}.nav-brand .logo{height:50px;width:auto}.mobile-toggle{display:none;background:none;border:none;cursor:pointer;color:var(--text-dark);padding:0.5rem}.phone-header-btn{display:none;background:var(--primary);color:var(--text-light);border:none;border-radius:var(--radius-pill);padding:0.75rem;cursor:pointer;transition:all 200ms ease}.phone-header-btn:hover{background:var(--secondary);transform:scale(1.05)}.nav-menu{display:flex;list-style:none;gap:2rem;align-items:center}.nav-link{font-weight:600;color:var(--text-dark);padding:0.5rem 1rem;border-radius:var(--radius-sm);transition:all 200ms ease}.nav-link:hover,.nav-link.active{background:rgba(47,107,79,0.1);color:var(--primary)}.nav-cta-btn{background:var(--primary);color:var(--text-light);padding:0.75rem 1.5rem;border-radius:var(--radius-pill);font-weight:700;transition:all 200ms ease;box-shadow:var(--shadow-soft)}.nav-cta-btn:hover{background:var(--secondary);color:var(--text-dark);transform:translateY(-2px);box-shadow:var(--shadow-med)}main{margin-top:70px}.hero-home{position:relative;min-height:90vh;display:flex;align-items:center;background:linear-gradient(180deg,#2F6B4F 0%,#E9EFEA 100%);padding:3rem 2rem;overflow:hidden}.hero-glow-puddle{position:absolute;top:-10%;left:20%;width:600px;height:600px;background:radial-gradient(circle,rgba(185,255,106,0.2) 0%,transparent 70%);filter:blur(80px);pointer-events:none}.hero-content-wrapper{display:grid;grid-template-columns:1fr 1fr;gap:3rem;max-width:1400px;margin:0 auto;width:100%;position:relative;z-index:2}.hero-left{display:flex;align-items:center}.hero-card{background:rgba(255,255,255,0.95);padding:3rem;border-radius:var(--radius-lg);box-shadow:var(--shadow-strong);position:relative}.rune-initial{position:absolute;top:-20px;right:-20px;font-family: 'Rubik', sans-serif}.hero-subtitle{font-size:16px;font-weight:600;color:var(--text-dark);margin:1rem 0 2rem;.85}.hero-facts{display:flex;gap:1rem;margin:2rem 0;flex-wrap:wrap}.fact-stone{background:rgba(47,107,79,0.1);padding:0.75rem 1.25rem;border-radius:var(--radius-pill);display:flex;align-items:center;gap:0.5rem;font-size:13px;font-weight:700;color:var(--primary);box-shadow:var(--shadow-soft)}.fact-offset-1{transform:translateY(8px)}.fact-offset-2{transform:translateY(-8px)}.hero-cta-group{display:flex;gap:1rem;margin-top:2rem;flex-wrap:wrap}.btn-primary{background:var(--primary);color:var(--text-light);padding:1rem 2rem;border-radius:var(--radius-pill);font-weight:700;border:none;cursor:pointer;transition:all 200ms ease;box-shadow:var(--shadow-med);display:inline-block;text-align:center}.btn-primary:hover{background:var(--secondary);color:var(--text-dark);transform:translateY(-3px);box-shadow:var(--shadow-strong)}.btn-secondary{background:transparent;color:var(--primary);padding:1rem 2rem;border:2px solid var(--primary);border-radius:var(--radius-pill);font-weight:700;cursor:pointer;transition:all 200ms ease}.btn-secondary:hover{background:var(--primary);color:var(--text-light)}.btn-large{padding:1.25rem 2.5rem;font-size:16px}.hero-right{position:relative}.hero-illustration{position:relative;border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow-strong)}.hero-illustration img{width:100%;height:auto}.connector-line{position:absolute;top:50%;left:-100px;width:200px;height:300px;pointer-events:none}.hero-secondary-img{position:absolute;bottom:-50px;right:-50px;width:300px;height:300px;border-radius:var(--radius-lg);box-shadow:var(--shadow-strong);object-fit:cover}.hero-wave-divider{position:absolute;bottom:-2px;left:0;width:100%;height:120px}.features-constellation{position:relative;padding:6rem 2rem;background:var(--bg-light)}.constellation-glow{position:absolute;top:20%;right:10%;width:500px;height:500px;background:radial-gradient(circle,rgba(245,194,122,0.15) 0%,transparent 70%);filter:blur(100px);pointer-events:none}.floating-glow-dots{position:absolute;top:5%;left:5%;width:240px;height:140px;.6}.constellation-wrapper{max-width:1200px;margin:0 auto;position:relative;min-height:800px}.clue-stone{background:rgba(255,255,255,0.95);padding:2rem;border-radius:var(--radius-lg);box-shadow:var(--shadow-med);position:absolute;max-width:350px;transition:all 300ms ease}.clue-stone:hover{transform:translateY(-5px);box-shadow:var(--shadow-strong)}.rune-icon{font-size:32px;color:var(--accent);margin-bottom:1rem}.clue-center{top:50%;left:50%;transform:translate(-50%,-50%);max-width:450px;z-index:5}.clue-top-left{top:5%;left:5%}.clue-top-right{top:10%;right:8%}.clue-bottom-left{bottom:15%;left:10%}.clue-bottom-right{bottom:10%;right:5%}.constellation-path{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;.4}.story-snippet{max-width:600px;margin:4rem auto 0;text-align:center;padding:2rem;background:rgba(47,107,79,0.05);border-radius:var(--radius-md)}.rune-text{font-family: 'Rubik', sans-serif}.snippet-translation{font-style:italic;color:var(--text-muted)}.gallery-magazine{padding:6rem 2rem;background:linear-gradient(180deg,#E9EFEA 0%,#ffffff 100%);position:relative}.rune-veil{position:absolute;top:0;left:0;width:100%;height:200px;background:repeating-linear-gradient(90deg,rgba(47,107,79,0.03) 0px,transparent 50px);pointer-events:none}.gallery-wrapper{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:2rem}.gallery-left .gallery-tile{height:100%}.gallery-tile{position:relative;border-radius:0;overflow:hidden;background:var(--bg-dark);box-shadow:var(--shadow-soft);border:1px solid rgba(239,233,219,0.18);transition:all 300ms ease}.gallery-tile:hover{transform:scale(1.02);box-shadow:var(--shadow-med)}.gallery-tile-softGlow{box-shadow:var(--shadow-strong),var(--shadow-glow);border:1px solid rgba(185,255,106,0.18)}.gallery-tile img{width:100%;height:100%;object-fit:cover}.gallery-caption{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(0,0,0,0.8));color:var(--text-light);padding:2rem 1.5rem 1rem;font-weight:700}.gallery-right{display:grid;grid-template-columns:1fr;gap:1.5rem}.encounter-strip{display:flex;justify-content:center;gap:2rem;margin-top:3rem;flex-wrap:wrap}.encounter-tile{background:rgba(47,107,79,0.1);padding:1rem 2rem;border-radius:var(--radius-pill);display:flex;align-items:center;gap:0.75rem;font-weight:700;color:var(--primary);box-shadow:var(--shadow-soft)}.encounter-tile i{color:var(--accent)}.no-spoilers{text-align:center;margin-top:2rem;font-style:italic;color:var(--text-muted);font-size:13px}.stats-section{padding:6rem 2rem;background:var(--bg-light);position:relative}.vine-divider{width:100%;height:80px;margin-bottom:3rem}.stats-wrapper{max-width:1200px;margin:0 auto;display:flex;justify-content:space-around;gap:2rem;flex-wrap:wrap;margin-bottom:4rem}.stat-stone{background:rgba(255,255,255,0.95);padding:3rem 2rem;border-radius:var(--radius-lg);box-shadow:var(--shadow-med);text-align:center;min-width:250px;transition:all 300ms ease}.stat-stone:hover{transform:translateY(-8px);box-shadow:var(--shadow-strong)}.stat-offset-1{transform:translateY(20px)}.stat-offset-2{transform:translateY(-20px)}.stat-offset-3{transform:translateY(10px)}.stat-number{font-family: 'Rubik', sans-serif}.stat-label{margin-top:0.5rem;font-weight:600;color:var(--text-dark);.8}.availability-teaser{max-width:600px;margin:4rem auto;background:rgba(255,255,255,0.95);padding:2rem;border-radius:var(--radius-lg);box-shadow:var(--shadow-med);text-align:center}.availability-teaser h3{margin-bottom:1.5rem}.availability-tabs{display:flex;gap:1rem;justify-content:center;margin-bottom:1.5rem;flex-wrap:wrap}.availability-pill{background:rgba(47,107,79,0.1);color:var(--primary);padding:0.75rem 1.5rem;border:2px solid transparent;border-radius:var(--radius-pill);font-weight:700;cursor:pointer;transition:all 200ms ease}.availability-pill:hover,.availability-pill.active{background:var(--primary);color:var(--text-light);border-color:var(--primary)}.btn-availability{display:inline-block;margin-top:1rem;background:var(--secondary);color:var(--text-dark);padding:1rem 2rem;border-radius:var(--radius-pill);font-weight:700;transition:all 200ms ease}.btn-availability:hover{background:var(--primary);color:var(--text-light);transform:translateY(-2px)}.faq-teaser{max-width:800px;margin:3rem auto}.faq-item{background:rgba(255,255,255,0.95);padding:1.5rem;margin-bottom:1rem;border-radius:var(--radius-md);box-shadow:var(--shadow-soft);cursor:pointer;transition:all 200ms ease}.faq-item:hover{box-shadow:var(--shadow-med)}summary{font-weight:700;color:var(--primary);list-style:none;display:flex;justify-content:space-between;align-items:center}summary::-webkit-details-marker{display:none}summary::after{content:'+';font-size:24px;color:var(--accent)}details[open] summary::after{content:'−'}.faq-item p{margin-top:1rem;padding-top:1rem;border-top:1px solid var(--border-light)}.final-cta{position:relative;padding:8rem 2rem;background:linear-gradient(180deg,#E9EFEA 0%,#2F6B4F 100%);text-align:center;overflow:hidden}.cta-glow-puddle{position:absolute;bottom:-20%;left:50%;transform:translateX(-50%);width:800px;height:800px;background:radial-gradient(circle,rgba(245,194,122,0.3) 0%,transparent 70%);filter:blur(120px);pointer-events:none}.ring-outline{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:400px;height:400px;.4;pointer-events:none}.cta-content{position:relative;z-index:2;max-width:700px;margin:0 auto}.cta-content h2{color:var(--text-light);margin-bottom:1rem}.cta-content p{color:var(--text-light);.9;margin-bottom:2rem;font-size:16px}.cta-bg-image{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;.3;z-index:1}.footer-strip{position:relative;z-index:2;margin-top:4rem;padding-top:3rem;border-top:1px solid rgba(255,255,255,0.2)}.footer-info{display:flex;justify-content:center;gap:3rem;flex-wrap:wrap;color:var(--text-light)}.footer-info>div{display:flex;align-items:center;gap:0.5rem;font-size:14px}.footer-info i{color:var(--accent)}.footer-social{display:flex;gap:1rem}.footer-social a{width:40px;height:40px;background:rgba(255,255,255,0.1);border-radius:50%;display:flex;align-items:center;justify-content:center;transition:all 200ms ease}.footer-social a:hover{background:var(--accent);color:var(--text-dark);transform:scale(1.1)}footer{background:var(--bg-dark);color:var(--text-light);padding:2rem;text-align:center}.footer-links{display:flex;justify-content:center;gap:2rem;margin-bottom:1rem;flex-wrap:wrap}.footer-links a{color:var(--text-light);.8;font-size:14px;transition:opacity 200ms ease}.footer-links a:hover{opacity:1}.footer-attribution{font-size:13px;.7}.footer-attribution a{color:var(--accent);font-weight:700}.whatsapp-float{position:fixed;bottom:2rem;left:2rem;width:60px;height:60px;background:#25D366;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:32px;box-shadow:var(--shadow-strong);z-index:999;transition:all 200ms ease}.whatsapp-float:hover{transform:scale(1.1);box-shadow:0 8px 24px rgba(37,211,102,0.4)}.modal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.8);z-index:9999;align-items:center;justify-content:center;padding:2rem}.modal-content{background:#E9EFEA;padding:3rem;border-radius:var(--radius-lg);max-width:600px;position:relative;box-shadow:var(--shadow-strong)}.modal-close{position:absolute;top:1rem;left:1rem;background:none;border:none;font-size:32px;cursor:pointer;color:var(--text-dark);transition:all 200ms ease}.modal-close:hover{color:var(--primary);transform:scale(1.1)}.story-warning{margin-top:1.5rem;font-weight:700;color:var(--primary);font-size:16px}.experience-hero{padding:6rem 2rem 4rem;background:linear-gradient(135deg,#2F6B4F 0%,#E9EFEA 100%)}.hero-split{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}.hero-text h1{color:var(--text-light)}.journey-info-chip{position:fixed;top:120px;right:2rem;background:rgba(255,255,255,0.95);padding:1rem 1.5rem;border-radius:var(--radius-pill);box-shadow:var(--shadow-med);display:flex;gap:0.5rem;align-items:center;font-size:13px;font-weight:700;color:var(--primary);z-index:100}.separator{color:var(--accent)}.journey-timeline{padding:6rem 2rem;background:var(--bg-light);position:relative}.journey-timeline h2{text-align:center;margin-bottom:3rem}.timeline-path{max-width:800px;margin:0 auto;position:relative;padding-left:100px}.timeline-connector{position:absolute;left:40px;top:0;width:100px;height:100%}.checkpoint{position:relative;margin-bottom:4rem;background:rgba(255,255,255,0.95);padding:2rem;border-radius:var(--radius-lg);box-shadow:var(--shadow-med);transition:all 300ms ease}.checkpoint:hover{transform:translateX(-10px);box-shadow:var(--shadow-strong)}.checkpoint-icon{position:absolute;left:-80px;top:50%;transform:translateY(-50%);width:50px;height:50px;background:var(--primary);color:var(--text-light);border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:20px;box-shadow:var(--shadow-med)}.features-alternating{padding:6rem 2rem;background:var(--bg-light)}.feature-block{max-width:1200px;margin:0 auto 6rem;display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}.feature-left{grid-template-columns:1fr 1fr}.feature-visual{border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow-strong)}.feature-visual img{width:100%;height:auto}.testimonials-strip{padding:4rem 2rem;background:rgba(47,107,79,0.05)}.testimonials-strip h2{text-align:center;margin-bottom:3rem}.testimonial-chips{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem}.testimonial-chip{background:rgba(255,255,255,0.95);padding:2rem;border-radius:var(--radius-md);box-shadow:var(--shadow-soft);transition:all 300ms ease}.testimonial-chip:hover{transform:translateY(-5px);box-shadow:var(--shadow-med)}.testimonial-chip p{font-style:italic;margin-bottom:1rem;color:var(--text-dark)}.testimonial-chip span{font-size:13px;font-weight:700;color:var(--primary)}.experience-cta{padding:6rem 2rem;background:linear-gradient(180deg,#E9EFEA 0%,#2F6B4F 100%);text-align:center;position:relative}.cta-glow{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:600px;height:600px;background:radial-gradient(circle,rgba(185,255,106,0.2) 0%,transparent 70%);filter:blur(100px);pointer-events:none}.experience-cta h2{color:var(--text-light)}.experience-cta p{color:var(--text-light);margin:1rem 0 2rem;.9}.booking-hero{padding:6rem 2rem 3rem;background:linear-gradient(135deg,#2F6B4F 0%,#E9EFEA 100%);text-align:center}.booking-hero h1{color:var(--text-light)}.booking-hero .hero-subtitle{color:var(--text-light);.9}.booking-main{padding:4rem 2rem;background:var(--bg-light)}.booking-wrapper{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr;gap:3rem}.booking-module{background:rgba(255,255,255,0.95);padding:3rem;border-radius:var(--radius-lg);box-shadow:var(--shadow-strong);position:relative}.booking-step{display:none}.booking-step.active{display:block}.calendar-placeholder{text-align:center;padding:4rem 2rem;background:rgba(47,107,79,0.05);border-radius:var(--radius-md);border:2px dashed var(--primary)}.calendar-placeholder i{font-size:48px;color:var(--primary);margin-bottom:1rem}.calendar-note{margin-top:1rem;font-size:13px;color:var(--text-muted)}.time-slots{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:2rem}.time-pill{background:rgba(47,107,79,0.1);color:var(--primary);padding:1rem;border:2px solid transparent;border-radius:var(--radius-md);font-weight:700;cursor:pointer;transition:all 200ms ease}.time-pill:hover,.time-pill.selected{background:var(--primary);color:var(--text-light);border-color:var(--primary);transform:scale(1.05)}.participants-selector{display:flex;justify-content:center;gap:1rem;margin-top:2rem;flex-wrap:wrap}.participant-btn{width:60px;height:60px;background:rgba(47,107,79,0.1);color:var(--primary);border:2px solid transparent;border-radius:50%;font-size:24px;font-weight:800;cursor:pointer;transition:all 200ms ease}.participant-btn:hover,.participant-btn.selected{background:var(--primary);color:var(--text-light);border-color:var(--primary);transform:scale(1.1)}.contact-form{margin-top:2rem}.form-group{margin-bottom:1.5rem}.form-group label{display:block;margin-bottom:0.5rem;font-weight:700;color:var(--text-dark)}.form-group input,.form-group textarea{width:100%;padding:1rem;border:2px solid var(--border-light);border-radius:var(--radius-sm);font-family: 'Rubik', sans-serif}.form-group input:focus,.form-group textarea:focus{outline:none;border-color:var(--primary);box-shadow:0 0 0 3px rgba(47,107,79,0.1)}.booking-progress{display:flex;justify-content:center;gap:1rem;margin-top:3rem}.progress-dot{width:12px;height:12px;background:rgba(47,107,79,0.2);border-radius:50%;transition:all 200ms ease}.progress-dot.active{background:var(--primary);transform:scale(1.3)}.booking-info{display:flex;flex-direction:column;gap:2rem}.info-card{background:rgba(255,255,255,0.95);padding:2rem;border-radius:var(--radius-lg);box-shadow:var(--shadow-med)}.info-card h3{margin-bottom:1rem;color:var(--primary)}.info-card ul{list-style:none}.info-card ul li{padding:0.75rem 0;display:flex;align-items:center;gap:0.75rem;border-bottom:1px solid var(--border-light)}.info-card ul li:last-child{border-bottom:none}.info-card i{color:var(--accent)}.price-info{font-size:13px;color:var(--text-muted);margin-bottom:0.5rem}.price-range{font-size:24px;font-weight:800;color:var(--primary)}.reassurance-section{padding:6rem 2rem;background:var(--bg-light);position:relative}.reassurance-cards{max-width:1200px;margin:0 auto;display:flex;justify-content:space-around;gap:2rem;flex-wrap:wrap;position:relative;z-index:2}.reassurance-stone{background:rgba(255,255,255,0.95);padding:2.5rem 2rem;border-radius:var(--radius-lg);box-shadow:var(--shadow-med);text-align:center;max-width:350px;transition:all 300ms ease}.reassurance-stone:hover{transform:translateY(-8px);box-shadow:var(--shadow-strong)}.reassurance-offset-1{transform:translateY(20px)}.reassurance-offset-2{transform:translateY(-20px)}.reassurance-stone i{font-size:40px;color:var(--accent);margin-bottom:1rem}.reassurance-connector{width:100%;height:100px;margin-top:2rem;.5}.faq-booking{padding:6rem 2rem;background:rgba(47,107,79,0.05)}.faq-booking h2{text-align:center;margin-bottom:3rem}.faq-grid{max-width:1000px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(400px,1fr));gap:1.5rem}.help-strip{padding:4rem 2rem;background:var(--bg-light);text-align:center}.help-strip h2{margin-bottom:2rem}.help-options{display:flex;justify-content:center;gap:2rem;flex-wrap:wrap}.help-btn{background:rgba(47,107,79,0.1);color:var(--primary);padding:1.5rem 2.5rem;border-radius:var(--radius-md);display:flex;align-items:center;gap:1rem;font-weight:700;transition:all 200ms ease;box-shadow:var(--shadow-soft)}.help-btn:hover{background:var(--primary);color:var(--text-light);transform:translateY(-3px);box-shadow:var(--shadow-med)}.help-btn i{font-size:24px}.contact-hero{padding:6rem 2rem 4rem;background:var(--bg-light)}.contact-split{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:3rem}.contact-form-container{background:rgba(255,255,255,0.95);padding:3rem;border-radius:var(--radius-lg);box-shadow:var(--shadow-strong)}.form-subtitle{color:var(--text-muted);margin-bottom:2rem}.contact-map-container{position:relative;border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow-strong)}.map-overlay{position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(180deg,rgba(233,239,234,0.3) 0%,rgba(233,239,234,0.1) 50%,rgba(233,239,234,0.3) 100%);pointer-events:none;z-index:2}.contact-map-container img{width:100%;height:100%;object-fit:cover}.map-link{position:absolute;bottom:2rem;left:50%;transform:translateX(-50%);background:var(--primary);color:var(--text-light);padding:1rem 2rem;border-radius:var(--radius-pill);font-weight:700;display:flex;align-items:center;gap:0.75rem;z-index:3;box-shadow:var(--shadow-med);transition:all 200ms ease}.map-link:hover{background:var(--secondary);color:var(--text-dark);transform:translateX(-50%) translateY(-3px)}.arrival-info{padding:6rem 2rem;background:rgba(47,107,79,0.05)}.arrival-info h2{text-align:center;margin-bottom:3rem}.arrival-options{max-width:1200px;margin:0 auto;display:flex;justify-content:space-around;gap:2rem;flex-wrap:wrap}.arrival-stone{background:rgba(255,255,255,0.95);padding:2.5rem 2rem;border-radius:var(--radius-lg);box-shadow:var(--shadow-med);text-align:center;max-width:350px;transition:all 300ms ease}.arrival-stone:hover{transform:translateY(-8px);box-shadow:var(--shadow-strong)}.arrival-offset-1{transform:translateY(15px)}.arrival-offset-2{transform:translateY(-15px)}.arrival-stone i{font-size:40px;color:var(--accent);margin-bottom:1rem}.contact-details{padding:6rem 2rem;background:var(--bg-light)}.details-grid{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2rem}.detail-card{background:rgba(255,255,255,0.95);padding:2rem;border-radius:var(--radius-md);box-shadow:var(--shadow-soft);text-align:center;transition:all 300ms ease}.detail-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-med)}.detail-card i{font-size:32px;color:var(--accent);margin-bottom:1rem}.detail-card a{color:var(--primary);font-weight:700;transition:color 200ms ease}.detail-card a:hover{color:var(--secondary)}.social-proof{padding:6rem 2rem;background:rgba(47,107,79,0.05)}.social-proof h2{text-align:center;margin-bottom:3rem}.quote-cluster{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem}.quote-chip{background:rgba(255,255,255,0.95);padding:2rem;border-radius:var(--radius-md);box-shadow:var(--shadow-soft);transition:all 300ms ease}.quote-chip:hover{transform:translateY(-5px) rotate(-1deg);box-shadow:var(--shadow-med)}.quote-offset-1{transform:translateY(10px)}.quote-offset-2{transform:translateY(-10px)}.quote-offset-3{transform:translateY(15px)}.quote-offset-4{transform:translateY(-15px)}.quote-offset-5{transform:translateY(5px)}.quote-chip p{font-style:italic;margin-bottom:1rem;color:var(--text-dark);font-size:15px}.quote-chip span{font-size:13px;font-weight:700;color:var(--primary)}.review-source{text-align:center;margin-top:2rem;font-size:13px;color:var(--text-muted)}@media (max-width:768px){.navbar{padding:1rem}.nav-menu{position:fixed;top:70px;right:-100%;width:80%;max-width:300px;height:calc(100vh - 70px);background:rgba(233,239,234,0.98);backdrop-filter:blur(12px);flex-direction:column;padding:2rem;box-shadow:-4px 0 12px rgba(0,0,0,0.1);transition:right 300ms ease;align-items:flex-start}.nav-menu.active{right:0}.mobile-toggle{display:block}.phone-header-btn{display:flex}h1{font-size:32px}h2{font-size:24px}.hero-content-wrapper,.hero-split,.contact-split,.booking-wrapper,.feature-block{grid-template-columns:1fr}.hero-right{margin-top:2rem}.hero-secondary-img{display:none}.journey-info-chip{position:static;margin:2rem auto;width:fit-content}.timeline-path{padding-left:60px}.checkpoint-icon{left:-50px;width:40px;height:40px;font-size:16px}.gallery-wrapper{grid-template-columns:1fr}.fact-stone,.hero-cta-group,.availability-tabs,.time-slots,.participants-selector{flex-direction:column}.stats-wrapper,.reassurance-cards,.arrival-options,.testimonial-chips,.quote-cluster,.details-grid{flex-direction:column;align-items:center}.faq-grid{grid-template-columns:1fr}.whatsapp-float{bottom:1rem;left:1rem;width:50px;height:50px;font-size:24px}}
+/* CRITICAL: Ensure images are visible immediately (but don't interfere with accessibility toolbar) */
+img, picture, figure {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* Global font override - exclude icon fonts and special elements */
+*:not(.fas):not(.far):not(.fab):not(.fa):not([class*="fa-"]):not(.iconify):not([class*="icon"]):not(code):not(pre):not(i[class*="fa"]) {
+  font-family: 'Rubik', sans-serif !important;
+}
+
+
+/* Logo size constraint - enforce max-height only */
+.logo, img.logo, .logo img, .logo-link img, .nav-brand img {
+  max-height: 40px !important;
+  height: auto !important;
+  width: auto !important;
+  object-fit: contain !important;
+}
+
+
+/* Hide WhatsApp float button on desktop (mobile-only) */
+@media (min-width: 769px) {
+  .whatsapp-float {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+}
+
+
+/* ============================================
+   MOBILE RESPONSIVE FIXES (Auto-generated)
+   Prevents common overflow and layout issues
+   ============================================ */
+
+@media (max-width: 768px) {
+  
+  /* 1. GLOBAL FIXES */
+  html, body {
+    width: 100% !important;
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
+    box-sizing: border-box !important;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: border-box !important;
+  }
+
+  /* 2. CONTAINER FIXES */
+  section, .section,
+  .container, .wrapper,
+  main, article {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    box-sizing: border-box !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  /* 3. FORM FIXES */
+  form {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 0 !important;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"],
+  input[type="url"],
+  input[type="search"],
+  select,
+  textarea,
+  .form-input,
+  .form-select,
+  .form-textarea {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .form-field,
+  .form-group,
+  .input-group,
+  .form-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    display: flex !important;
+    flex-direction: column !important;
+    grid-template-columns: none !important;
+  }
+
+  /* 4. GRID TO COLUMN CONVERSION */
+  [style*="display: grid"],
+  [style*="display:grid"],
+  .grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1rem !important;
+    grid-template-columns: none !important;
+  }
+
+  /* 5. TYPOGRAPHY SCALING */
+  h1 {
+    font-size: clamp(28px, 8vw, 48px) !important;
+  }
+  
+  h2 {
+    font-size: clamp(24px, 6vw, 36px) !important;
+  }
+  
+  h3 {
+    font-size: clamp(20px, 5vw, 28px) !important;
+  }
+  
+  h4 {
+    font-size: clamp(18px, 4vw, 24px) !important;
+  }
+
+  p, li, span {
+    font-size: clamp(14px, 4vw, 18px) !important;
+  }
+
+  /* 6. IMAGE RESPONSIVENESS */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
+  }
+
+  /* 7. ABSOLUTE POSITIONING FIXES */
+  /* Exclude mobile navigation buttons from positioning fixes */
+  [style*="position: absolute"]:not(.mobile-toggle):not(.phone-header-btn):not(.skip-link),
+  [style*="position:absolute"]:not(.mobile-toggle):not(.phone-header-btn):not(.skip-link) {
+    position: relative !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+  }
+
+  /* 8. MULTI-COLUMN LAYOUTS */
+  .columns,
+  [style*="column-count"],
+  [style*="columns:"] {
+    column-count: 1 !important;
+    columns: 1 !important;
+  }
+
+  /* 9. FLEXBOX WRAPPING */
+  .flex,
+  [style*="display: flex"],
+  [style*="display:flex"] {
+    flex-wrap: wrap !important;
+  }
+
+  /* 10. BUTTONS */
+  button,
+  .button,
+  .btn {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 12px 20px !important;
+    font-size: 16px !important;
+  }
+
+  /* 11. TABLES */
+  table {
+    width: 100% !important;
+    display: block !important;
+    overflow-x: auto !important;
+  }
+
+  /* 12. CARDS/BLOCKS */
+  .card,
+  .block,
+  .box {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-bottom: 1rem !important;
+  }
+
+  /* 13. CONTACT FORM SPECIFIC FIXES */
+  .contact-form-section,
+  .form-text-side,
+  .form-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 1rem !important;
+    box-sizing: border-box !important;
+  }
+
+  /* 14. HERO SECTIONS */
+  .hero,
+  .hero-section,
+  [class*="hero"] {
+    min-height: auto !important;
+    height: auto !important;
+    padding: 2rem 1rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  /* 14a. HERO OVERLAYS */
+  .hero-overlay,
+  [class*="hero"][class*="overlay"] {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 1rem !important;
+    box-sizing: border-box !important;
+  }
+
+  /* 14b. HERO IMAGES */
+  .hero img,
+  .hero-section img,
+  [class*="hero"] > img {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    max-height: 400px !important;
+    object-fit: cover !important;
+  }
+
+  /* 15. HORIZONTAL SCROLL CONTAINERS */
+  [class*="scroll"],
+  [class*="-scroll"],
+  [style*="overflow-x: auto"],
+  [style*="overflow-x:auto"] {
+    display: flex !important;
+    flex-direction: column !important;
+    overflow-x: visible !important;
+    gap: 1rem !important;
+  }
+
+  /* 16. PACKAGES/CARDS GRIDS */
+  .packages-grid,
+  .packages-scroll,
+  [class*="package"][class*="grid"],
+  [class*="card"][class*="grid"] {
+    display: flex !important;
+    flex-direction: column !important;
+    overflow-x: visible !important;
+    width: 100% !important;
+  }
+
+  /* 17. PREVENT HORIZONTAL SCROLL */
+  body > * {
+    max-width: 100vw !important;
+  }
+}
+
+/* END MOBILE RESPONSIVE FIXES */
+
+
+
+/* ============================================
+   NAVBAR LAYOUT - POST-GENERATION FIXES
+   Structural layout only - colors from Claude
+   ============================================ */
+
+/* Base navbar styles - structural only, colors from AI */
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  /* Background color is set by Claude's CSS - don't override */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* ============================================
+   DESKTOP LAYOUT (>768px)
+   ============================================ */
+
+/* Nav container - constrains max width and provides padding */
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Logo styling */
+.logo {
+  max-height: 40px;
+  height: auto;
+  width: auto;
+  display: block;
+  object-fit: contain;
+  transition: opacity 0.3s ease;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logo-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  line-height: 0;
+}
+
+.logo-link:focus {
+  outline: none;
+}
+
+/* Nav brand container */
+.nav-brand {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  margin: 0;
+}
+
+/* Navigation menu - positioned adjacent to logo */
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.nav-menu li {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+  /* Color from Claude's CSS - don't override */
+  font-weight: 500;
+}
+
+.nav-menu a:hover {
+  /* Hover color from Claude's CSS - don't override */
+}
+
+/* CTA Container - pushed to end of navbar */
+.nav-cta-container {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.nav-cta-item {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* CTA button styling comes from Claude's CSS - no overrides */
+
+/* ============================================
+   LTR DESKTOP LAYOUT (English, Spanish, French)
+   ============================================ */
+html[dir="ltr"] .nav-container,
+html[lang="en"] .nav-container,
+html[lang="es"] .nav-container,
+html[lang="fr"] .nav-container {
+  justify-content: flex-start;
+}
+
+html[dir="ltr"] .nav-menu,
+html[lang="en"] .nav-menu,
+html[lang="es"] .nav-menu,
+html[lang="fr"] .nav-menu {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+html[dir="ltr"] .nav-cta-container,
+html[lang="en"] .nav-cta-container,
+html[lang="es"] .nav-cta-container,
+html[lang="fr"] .nav-cta-container {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+/* ============================================
+   RTL DESKTOP LAYOUT (Hebrew, Arabic)
+   ============================================ */
+html[dir="rtl"] .nav-container,
+html[lang="he"] .nav-container,
+html[lang="ar"] .nav-container {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+/* CTA on the left in RTL */
+html[dir="rtl"] .nav-cta-container,
+html[lang="he"] .nav-cta-container,
+html[lang="ar"] .nav-cta-container {
+  order: -1;
+  margin: 0;
+}
+
+/* Wrapper groups menu and logo together on the right */
+html[dir="rtl"] .nav-right-group,
+html[lang="he"] .nav-right-group,
+html[lang="ar"] .nav-right-group {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  order: 1;
+  flex-direction: row-reverse;
+}
+
+/* Within wrapper: Logo on far right, menu to its left */
+html[dir="rtl"] .nav-right-group .nav-brand,
+html[lang="he"] .nav-right-group .nav-brand,
+html[lang="ar"] .nav-right-group .nav-brand {
+  order: 2;
+}
+
+html[dir="rtl"] .nav-right-group .nav-menu,
+html[lang="he"] .nav-right-group .nav-menu,
+html[lang="ar"] .nav-right-group .nav-menu {
+  order: 1;
+}
+
+/* Desktop: Hide mobile-only elements */
+@media (min-width: 769px) {
+  .mobile-toggle,
+  .phone-header-btn {
+    display: none !important;
+  }
+  
+  /* Hide Contact in nav-menu on desktop (it shows in CTA container instead) */
+  .nav-menu .mobile-contact-link {
+    display: none !important;
+  }
+}
+
+/* ============================================
+   MOBILE RESPONSIVE (≤768px)
+   ============================================ */
+@media (max-width: 768px) {
+  /* Reset nav-container for mobile */
+  .nav-container {
+    padding: 0.75rem 1rem;
+    gap: 0;
+    justify-content: center !important;
+  }
+  
+  /* Show mobile elements - positioned as direct children of navbar */
+  .mobile-toggle,
+  .phone-header-btn {
+    position: absolute;
+    top: 15px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    z-index: 1001;
+    width: 44px !important;
+    height: 44px !important;
+    /* Color will be set dynamically based on navbar background */
+    color: inherit;
+  }
+  
+  .mobile-toggle svg,
+  .phone-header-btn svg {
+    width: 24px !important;
+    height: 24px !important;
+    /* Color intentionally not set - inherit from parent */
+    fill: none !important;
+    stroke: currentColor !important;
+    stroke-width: 2 !important;
+    transition: opacity 0.3s ease;
+  }
+  
+  .mobile-toggle svg path,
+  .phone-header-btn svg path {
+    stroke: currentColor !important;
+  }
+  
+  .mobile-toggle img,
+  .phone-header-btn img {
+    width: 24px !important;
+    height: 24px !important;
+    /* Filter removed - preserve original image colors */
+    /* ColorContrastService will handle contrast adjustments */
+  }
+  
+  .mobile-toggle:hover svg,
+  .phone-header-btn:hover svg {
+    opacity: 0.8;
+  }
+  
+  /* Remove default button styles */
+  .mobile-toggle:focus,
+  .mobile-toggle:active,
+  .phone-header-btn:focus,
+  .phone-header-btn:active {
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+  
+  /* Center logo on mobile */
+  .nav-brand {
+    margin: 0 auto !important;
+    text-align: center;
+    order: 0 !important;
+  }
+  
+  /* Logo responsive sizing */
+  .logo {
+    max-height: 35px;
+  }
+  
+  /* Hide RTL wrapper on mobile */
+  .nav-right-group {
+    display: contents !important;
+  }
+  
+  /* Hide CTA container on mobile - Contact will be in hamburger menu */
+  .nav-cta-container {
+    display: none !important;
+  }
+  
+  /* Mobile menu - hidden by default */
+  .nav-menu {
+    position: fixed;
+    top: 70px;
+    width: 50%;
+    max-width: 300px;
+    /* Background inherits from navbar or Claude's CSS - don't override */
+    flex-direction: column;
+    gap: 0;
+    padding: 20px 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    display: none;
+    z-index: 999;
+    margin: 0 !important;
+    /* Align menu items to top, not center */
+    align-items: stretch;
+    justify-content: flex-start;
+  }
+  
+  .nav-menu.active {
+    display: flex !important;
+  }
+  
+  .nav-menu li {
+    width: 100%;
+  }
+  
+  /* Show mobile-contact-link in hamburger menu */
+  .nav-menu .mobile-contact-link {
+    display: block !important;
+  }
+  
+  .nav-menu a {
+    display: block;
+    padding: 15px 30px;
+    width: 100%;
+    text-align: left;
+    font-weight: 500;
+  }
+}
+
+/* ============================================
+   LTR POSITIONING (English, Spanish, French)
+   ============================================ */
+@media (max-width: 768px) {
+  html[dir="ltr"] .mobile-toggle,
+  html[lang="en"] .mobile-toggle,
+  html[lang="es"] .mobile-toggle,
+  html[lang="fr"] .mobile-toggle {
+    left: 15px;
+    right: auto;
+  }
+  
+  html[dir="ltr"] .phone-header-btn,
+  html[lang="en"] .phone-header-btn,
+  html[lang="es"] .phone-header-btn,
+  html[lang="fr"] .phone-header-btn {
+    right: 15px;
+    left: auto;
+  }
+  
+  html[dir="ltr"] .nav-menu,
+  html[lang="en"] .nav-menu,
+  html[lang="es"] .nav-menu,
+  html[lang="fr"] .nav-menu {
+    left: 0;
+    right: auto;
+  }
+}
+
+/* ============================================
+   RTL POSITIONING (Hebrew, Arabic)
+   ============================================ */
+@media (max-width: 768px) {
+  html[dir="rtl"] .mobile-toggle,
+  html[lang="he"] .mobile-toggle,
+  html[lang="ar"] .mobile-toggle {
+    right: 15px;
+    left: auto;
+  }
+  
+  html[dir="rtl"] .phone-header-btn,
+  html[lang="he"] .phone-header-btn,
+  html[lang="ar"] .phone-header-btn {
+    left: 15px;
+    right: auto;
+  }
+  
+  html[dir="rtl"] .nav-menu,
+  html[lang="he"] .nav-menu,
+  html[lang="ar"] .nav-menu {
+    right: 0;
+    left: auto;
+  }
+  
+  html[dir="rtl"] .nav-menu a,
+  html[lang="he"] .nav-menu a,
+  html[lang="ar"] .nav-menu a {
+    text-align: right;
+  }
+}
+
+/* ============================================
+   END NAVBAR FIXES
+   ============================================ */
+
+/* Post-generation fix: Remove main element margin-top and padding-top */
+main { margin-top: 0 !important; padding-top: 0 !important; }
+
+
+/* Legal Pages Content Styles */
+
+/* Legal Pages Content Styles */
+.legal-page-content {
+  padding: 60px 0;
+  min-height: 60vh;
+}
+
+.legal-page-content .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.legal-page-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: inherit;
+}
+
+.legal-page-content .last-updated {
+  color: #666;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.legal-page-content h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: inherit;
+}
+
+.legal-page-content p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.legal-page-content ul {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+[dir="rtl"] .legal-page-content ul {
+  padding-left: 0;
+  padding-right: 1.5rem;
+}
+
+.legal-page-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.legal-page-content .contact-box {
+  background: rgba(0, 0, 0, 0.03);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+}
+
+.legal-page-content .contact-box a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.legal-page-content .contact-box a:hover {
+  opacity: 0.8;
+}
+
+
+/* Cookie Consent Styles */
+
+/* Cookie Consent Customizations */
+:root {
+  --cc-btn-primary-bg: #3b82f6;
+  --cc-btn-primary-border: #3b82f6;
+  --cc-btn-primary-hover-bg: #2269dd;
+}
+
+#cc--main {
+  font-family: inherit !important;
+}
+
+.cc-btn.cc--btn-primary {
+  background-color: var(--cc-btn-primary-bg) !important;
+  border-color: var(--cc-btn-primary-border) !important;
+}
+
+.cc-btn.cc--btn-primary:hover {
+  background-color: var(--cc-btn-primary-hover-bg) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #cc--main .cc__btn {
+    font-size: 14px !important;
+    padding: 8px 16px !important;
+  }
+  
+  .cc__modal .cc__modal-content {
+    margin: 10px !important;
+  }
+}
+
+/* Cookie preferences button in footer */
+.cookie-preferences-btn:hover {
+  text-decoration: none !important;
+}
+
+/* Accessibility Styles */
+
+/* Basic Accessibility Enhancements */
+:root {
+  --accessibility-focus: #0f1c16;
+}
+
+/* Skip link styles */
+.skip-link:focus {
+  position: absolute !important;
+  top: 6px !important;
+  left: 6px !important;
+  background: #000 !important;
+  color: white !important;
+  padding: 8px !important;
+  text-decoration: none !important;
+  z-index: 10000 !important;
+  border-radius: 4px !important;
+}
+
+/* Enhanced focus indicators */
+*:focus {
+  outline: 2px solid var(--accessibility-focus) !important;
+  outline-offset: 2px !important;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  * {
+    border-color: currentColor !important;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Screen reader only content */
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+
+/* Custom Accessibility Toolbar Styling - Zappy Style */
+
+/* Main button icon - ONLY target the floating button, not menu elements */
+#mic-access-tool-general-button {
+  background-color: transparent !important;
+  background: transparent !important;
+  border: none !important;
+  width: 32px !important;
+  height: 32px !important;
+  min-width: 32px !important;
+  min-height: 32px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0 !important;
+  line-height: 0 !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+/* AGGRESSIVELY hide all text in the button */
+#mic-access-tool-general-button,
+#mic-access-tool-general-button *:not(svg):not(path):not(circle):not(rect):not(polygon):not(ellipse):not(line):not(polyline):not(g) {
+  font-size: 0 !important;
+  color: transparent !important;
+  text-indent: -9999px !important;
+  line-height: 0 !important;
+  letter-spacing: -999em !important;
+  white-space: nowrap !important;
+}
+
+/* Hide text nodes specifically */
+#mic-access-tool-general-button::before,
+#mic-access-tool-general-button::after {
+  content: none !important;
+  display: none !important;
+}
+
+/* Hover state - keep text hidden */
+#mic-access-tool-general-button:hover {
+  background-color: rgba(15, 28, 22, 0.1) !important;
+  background: rgba(15, 28, 22, 0.1) !important;
+  box-shadow: 0 2px 8px rgba(15, 28, 22, 0.2) !important;
+  font-size: 0 !important;
+  color: transparent !important;
+  text-indent: -9999px !important;
+}
+
+/* Target the SVG and make it the selected color */
+#mic-access-tool-general-button svg {
+  width: 18px !important;
+  height: 18px !important;
+  max-width: 18px !important;
+  max-height: 18px !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  margin: 0 !important;
+  /* Convert green to selected color using dynamic CSS filter */
+  filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(0deg) brightness(100%) contrast(100%) !important;
+}
+
+/* Also directly target all SVG elements to be the selected color */
+#mic-access-tool-general-button svg,
+#mic-access-tool-general-button svg *,
+#mic-access-tool-general-button svg path,
+#mic-access-tool-general-button svg circle,
+#mic-access-tool-general-button svg rect,
+#mic-access-tool-general-button svg polygon,
+#mic-access-tool-general-button svg ellipse,
+#mic-access-tool-general-button svg line,
+#mic-access-tool-general-button svg polyline,
+#mic-access-tool-general-button svg g {
+  fill: #0f1c16 !important;
+  stroke: #0f1c16 !important;
+  color: #0f1c16 !important;
+}
+
+/* Target images if the icon is an img instead of SVG */
+#mic-access-tool-general-button img,
+#mic-access-tool-general-button i {
+  width: 18px !important;
+  height: 18px !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  /* Convert green to selected color using dynamic filter */
+  filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(0deg) brightness(100%) contrast(100%) !important;
+}
+
+/* Menu header with selected color */
+#mic-access-tool-box .mic-access-tool-box-header,
+.mic-access-tool-box-header,
+div[id*="mic-access-tool-box"] header,
+div[id*="mic-access-tool-box"] .header {
+  background: #0f1c16 !important;
+  color: white !important;
+}
+
+/* Make header text white - title and close button */
+#mic-access-tool-box .mic-access-tool-box-header *,
+.mic-access-tool-box-header *,
+div[id*="mic-access-tool-box"] header *,
+div[id*="mic-access-tool-box"] .header * {
+  color: white !important;
+}
+
+/* Close button text */
+#mic-access-tool-box .mic-access-tool-box-header button,
+#mic-access-tool-box .mic-access-tool-box-header a,
+#mic-access-tool-box [class*="close"],
+#mic-access-tool-box button[title*="close"],
+#mic-access-tool-box button[title*="Close"] {
+  color: white !important;
+  background: transparent !important;
+}
+
+/* Active buttons and highlights in menu */
+#mic-access-tool-box button.active,
+#mic-access-tool-box button:hover,
+div[id*="mic-access-tool-box"] button.active,
+div[id*="mic-access-tool-box"] button:hover {
+  border-color: #0f1c16 !important;
+  color: #0f1c16 !important;
+  background-color: rgba(15, 28, 22, 0.1) !important;
+}
+
+/* Reset button */
+#mic-access-tool-box button[title*="reset"],
+#mic-access-tool-box button[title*="Reset"],
+#mic-access-tool-box [class*="reset"],
+div[id*="mic-access-tool-box"] button[class*="reset"] {
+  background: #0f1c16 !important;
+  color: white !important;
+}
+
+/* Reset button text and icon */
+#mic-access-tool-box button[title*="reset"] *,
+#mic-access-tool-box button[title*="Reset"] *,
+#mic-access-tool-box [class*="reset"] *,
+div[id*="mic-access-tool-box"] button[class*="reset"] * {
+  color: white !important;
+}
+
+/* Hide accessibility widget by default on all screen sizes */
+/* TODO: Can be re-enabled in the future by removing display: none */
+/* The widget can be shown via ALT+A keyboard shortcut (desktop only) */
+/* Target Mickidum accessibility button with high specificity */
+#mic-access-tool-general-button,
+.mic-access-tool-general-button,
+#mic-init-access-tool .mic-access-tool-general-button,
+#mic-init-access-tool #mic-access-tool-general-button,
+._access-icon {
+  display: none !important; /* Hidden by default - can be re-enabled */
+}
+
+/* Target Mickidum accessibility menu with high specificity */
+#mic-access-tool-box,
+.mic-access-tool-box,
+#mic-init-access-tool #mic-access-tool-box,
+div[id*="mic-access-tool-box"],
+._access-menu {
+  display: none !important; /* Hidden by default - can be re-enabled */
+}
+
+/* Show accessibility widget when ALT+A keyboard shortcut is used (desktop only) */
+body.accessibility-widget-visible #mic-access-tool-general-button,
+body.accessibility-widget-visible .mic-access-tool-general-button,
+body.accessibility-widget-visible #mic-init-access-tool .mic-access-tool-general-button,
+body.accessibility-widget-visible #mic-init-access-tool #mic-access-tool-general-button,
+body.accessibility-widget-visible ._access-icon {
+  display: flex !important; /* Show button when visible class is added */
+}
+
+body.accessibility-widget-visible #mic-access-tool-box,
+body.accessibility-widget-visible .mic-access-tool-box,
+body.accessibility-widget-visible #mic-init-access-tool #mic-access-tool-box,
+body.accessibility-widget-visible div[id*="mic-access-tool-box"],
+body.accessibility-widget-visible ._access-menu {
+  display: block !important; /* Show menu when visible class is added */
+}
+
+/* On mobile, ensure it stays hidden */
+@media (max-width: 768px) {
+  /* Hide the accessibility button on mobile - higher specificity */
+  #mic-access-tool-general-button,
+  .mic-access-tool-general-button,
+  #mic-init-access-tool .mic-access-tool-general-button,
+  #mic-init-access-tool #mic-access-tool-general-button,
+  ._access-icon {
+    display: none !important; /* Hidden on mobile - can be re-enabled */
+  }
+  
+  /* Hide the accessibility menu on mobile - higher specificity */
+  #mic-access-tool-box,
+  .mic-access-tool-box,
+  #mic-init-access-tool #mic-access-tool-box,
+  div[id*="mic-access-tool-box"],
+  ._access-menu {
+    display: none !important; /* Hidden on mobile - can be re-enabled */
+  }
+  
+  /* Ensure mobile never shows widget even with keyboard shortcut */
+  body.accessibility-widget-visible #mic-access-tool-general-button,
+  body.accessibility-widget-visible .mic-access-tool-general-button,
+  body.accessibility-widget-visible #mic-init-access-tool .mic-access-tool-general-button,
+  body.accessibility-widget-visible #mic-init-access-tool #mic-access-tool-general-button,
+  body.accessibility-widget-visible ._access-icon,
+  body.accessibility-widget-visible #mic-access-tool-box,
+  body.accessibility-widget-visible .mic-access-tool-box,
+  body.accessibility-widget-visible #mic-init-access-tool #mic-access-tool-box,
+  body.accessibility-widget-visible div[id*="mic-access-tool-box"],
+  body.accessibility-widget-visible ._access-menu {
+    display: none !important;
+  }
+}

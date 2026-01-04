@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ring-of-fire-509b2125.zappy5.app/sitemap.xml

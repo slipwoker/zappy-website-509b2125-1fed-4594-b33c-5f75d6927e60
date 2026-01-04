@@ -1,0 +1,57 @@
+# Ring of Fire — Generative Engine Optimization Map
+
+> A בידור וחוויות business.
+
+---
+
+## Pages
+
+### בית
+https://ring-of-fire-509b2125.zappy5.app
+גלו את הסוד שמאחורי טבעת האש. חוויית בריחה פנטסטית לקבוצות של 4-8 משתתפים, גילאי 12+. 60 דקות של חידות, הרפתקה וקסם.
+
+### החוויה
+https://ring-of-fire-509b2125.zappy5.app/experience
+גלו את המסע המלא - 60 דקות של הרפתקה, חידות מתוחכמות, ועבודת צוות בעולם פנטסטי. מערכת רמזים עדינה ופילוסופיית קושי מאוזנת.
+
+### הזמנה
+https://ring-of-fire-509b2125.zappy5.app/booking
+הזמינו את חוויית Ring of Fire. בחרו תאריך ושעה, מלאו פרטים והתכוננו להרפתקה. ביטול חינם עד 24 שעות.
+
+### יצירת קשר
+https://ring-of-fire-509b2125.zappy5.app/contact
+צרו קשר עם Ring of Fire. שלחו לנו הודעה, התקשרו או בואו לבקר. אנחנו כאן לענות על כל שאלה.
+
+## Legal & Policy
+
+### Privacy Policy
+https://ring-of-fire-509b2125.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://ring-of-fire-509b2125.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://ring-of-fire-509b2125.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Ring of Fire
+Ring of Fire is a business in the בידור וחוויות industry.
+
+## Target Audience
+קבוצות של 4-8 אנשים, גילאי 12+
+
+## Industry
+בידור וחוויות
+
+---
+
+# Additional Resources
+
+- **Sitemap**: https://ring-of-fire-509b2125.zappy5.app/sitemap.xml
+- **Robots.txt**: https://ring-of-fire-509b2125.zappy5.app/robots.txt
